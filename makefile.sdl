@@ -1,0 +1,13 @@
+OperatingSystem := $(shell uname)
+ifeq ($(OperatingSystem), Darwin)
+	LibSDL := -framework SDL2
+else
+	LibSDL := -lSDL2
+endif
+
+all:
+	cc -std=c++11 DiceInvaders.cpp Engine.cpp $(LibSDL) -fno-exceptions -o DiceInvaders
+
+clean:
+	-rm DiceInvaders
+
