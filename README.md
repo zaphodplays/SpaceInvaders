@@ -1,7 +1,12 @@
 # SpaceInvaders
 My version of the classic space invaders
-Rules of the Game 
------------------
+
+### Performance based code
+This code is specifically written to execute on a low memory, low processor spec machine. 
+For this reason, I have used a lot of bit manipulation to do faster calculations. 
+Also, a single sprite is represented as a single bit which saves considerable memory
+
+
  
 ### Description 
 Space Invaders consists of four different objects: the player ship, the aliens,
