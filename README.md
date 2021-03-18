@@ -1,4 +1,4 @@
-# SpaceInvaders
+# SpaceInvaders (coded for Performance on a low spec machine)
 My version of the classic space invaders
 
 ### Performance based code
