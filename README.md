@@ -88,7 +88,7 @@ Implementation
 `Engine.h` 
 - The library interface. Should be self-documented.
 
-`Engine.cpp` (Do not edit!)
+`Engine.cpp` 
 - The implementation of the library.
 
 
